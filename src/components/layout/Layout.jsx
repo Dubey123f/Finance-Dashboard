@@ -29,33 +29,3 @@ const Layout = ({ children }) => {
 
 export default Layout;
 
-// import { useState } from "react";
-// import Sidebar from "./Sidebar";
-// import Navbar from "./Navbar";
-
-// const Layout = ({ children }) => {
-//   const [sidebarOpen, setSidebarOpen] = useState(false);
-
-//   return (
-//     <div className="flex min-h-screen">
-      
-//       {/* Sidebar */}
-//       <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
-
-//       {/* Main Content */}
-//       <div className="flex-1 flex flex-col">
-        
-//         {/* Navbar */}
-//         <Navbar setSidebarOpen={setSidebarOpen} />
-
-//         {/* Page Content */}
-//         <div className="flex-1">
-//           {children}
-//         </div>
-
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Layout;
